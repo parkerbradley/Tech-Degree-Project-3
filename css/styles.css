@@ -1,0 +1,124 @@
+* {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* primary styles ================================================== */
+
+header,
+footer {
+  text-align: center;
+}
+
+header {
+  padding: 10px 0;
+  background-color: #343635;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+footer {
+  padding: 10px 0 100px 0;
+}
+
+h1 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+}
+
+h1,
+h2 {
+  color: #343635;
+}
+
+p,
+label {
+  padding: 10px 0;
+}
+
+p,
+label {
+  font-size: .8rem;
+  color: #acadad;
+}
+
+.site-id {
+  color: #fff;
+}
+
+.content-container {
+  margin: auto;
+  max-width: 90%;
+}
+
+.intro {
+  text-align: center;
+  padding-top: 15px;
+  border-bottom: solid 3px #343635;
+  margin-bottom: 2px;
+}
+
+.intro p {
+  padding-bottom: 25px;
+}
+
+/* form styles ================================================== */
+
+input,
+select,
+option,
+textarea {
+  border: none;
+  background-color: #e8ebeb;
+  padding: 12.5px 10px;
+  border-radius: 5px;
+}
+
+input:focus:not([type="submit"]),
+textarea:focus,
+select:focus {
+  /* outline-color: #343635;
+  outline-width: 1px; */
+  outline: none;
+  border: inset 1px black;
+}
+
+input[type="submit"]:active,
+input[type="submit"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px #000;
+}
+
+input[name="user-zipcode"] {
+  max-width: 50%;
+}
+
+input[type="submit"] {
+  width: 100%;
+  color: #fff;
+  background-color: #42AFA6;
+}
+
+.form {
+  border-top: solid 1px #343635;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-check input,
+.radio-check label {
+  display: inline-block;
+  padding: 5px 0;
+}
+[placeholder] {
+  text-align: right;
+  padding-right: 10px;
+  font-style: italic;
+}
