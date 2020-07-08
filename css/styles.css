@@ -82,7 +82,8 @@ fieldset {
 input,
 select,
 option,
-textarea {
+textarea,
+button {
   border: none;
   color: #343635;
   background-color: #e8ebeb;
@@ -99,7 +100,8 @@ input[type="radio"] {
 
 input:focus,
 textarea:focus,
-select:focus {
+select:focus,
+button:focus {
   outline: none;
   box-shadow: 0 0 5px #000;
 }
@@ -108,7 +110,7 @@ input[name="user-zipcode"] {
   max-width: 50%;
 }
 
-input[type="submit"] {
+button {
   width: 100%;
   color: #fff;
   background-color: #42AFA6;
